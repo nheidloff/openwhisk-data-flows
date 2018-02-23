@@ -32,8 +32,7 @@ let main = params => {
 /* Input: Sample JSON and Schema
 
 {
-    "id": "nheidloff",
-    "subject": "hello"
+    "id": "nheidloff"
 }
 
 {
@@ -41,9 +40,6 @@ let main = params => {
   "type": "object",
   "properties": {
     "id": {
-      "type": "string"
-    },
-    "subject": {
       "type": "string"
     }
   },

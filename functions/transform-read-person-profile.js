@@ -5,8 +5,7 @@ let main = params => {
 
         let outputParameters = {
             'input': {
-                'id': id,
-                'subject': subject
+                'id': id
             },
             'input-application': {
                 'id': id,
@@ -18,8 +17,7 @@ let main = params => {
     catch (error) {
         return { // for testing purposes only
             'input': {
-                'id': 'heidloff',
-                'subject': 'Hi'
+                'id': 'heidloff'
             },
             'input-application': {
                 'id': id,
